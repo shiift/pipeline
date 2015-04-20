@@ -1,0 +1,25 @@
+#====================
+instruction_address=0x00400000
+instruction_encoding=0x00430822
+OPCode=000000
+Funct=100010
+InstrFormat=R-type
+RegDst=1
+Jump=0
+Branch=0
+MemRead=0
+MemtoReg=0
+MemWrite=0
+ALUSrc=0
+RegWrite=1
+Read_register_1=00010 2
+Read_register_2=00011 3
+Write_register=00001 1
+Sign_extend_output=0x00000822
+ALU_control_output=0110
+BTarget=0x0040208C
+Jump_address=0x010C2088
+#Continue for next instruction. Do not print this line.
+#==================== 
+instruction_address=0x00400004
+instruction_encoding=0x12120006
