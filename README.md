@@ -5,6 +5,7 @@ This program was created for my computer architecture class. It takes
 input in the following format and converts it to the output shown below:
 
 INPUT:
+```
  Address    Code        Basic                     Source
 
 0x00400000  0x00430822  sub $1,$2,$3          7    	sub	$1, $2, $3
@@ -15,9 +16,10 @@ INPUT:
 0x00400014  0x02b6082a  slt $1,$21,$22        12   	slt	$at, $s5, $s6
 0x00400018  0x02328024  and $16,$17,$18       13   	and	$s0, $s1, $s2
 0x0040001c  0x08100000  j 0x00400000          14   	j	loop
-
+```
 
 OUTPUT:
+```
 #====================
 instruction_address=0x00400000
 instruction_encoding=0x00430822
@@ -44,3 +46,4 @@ Jump_address=0x010C2088
 instruction_address=0x00400004
 instruction_encoding=0x12120006
 ...
+```
